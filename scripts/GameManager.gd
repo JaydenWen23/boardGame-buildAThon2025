@@ -4,7 +4,7 @@ extends Node
 var turn = int(randf_range(1, 2))
 var tower_positions = []  # Store positions of placed towers
 var influence_radius = 2  # Cells radius for sphere of influence
-var turnz = 0
+var turnz = 30
 var towersF: int = 0
 var towersP: int = 0
 func _init():

@@ -1,11 +1,12 @@
-[gd_scene load_steps=9 format=3 uid="uid://c0xxw5r6411n1"]
+[gd_scene load_steps=10 format=3 uid="uid://c0xxw5r6411n1"]
 
-[ext_resource type="PackedScene" uid="uid://b2pp2cf8cbnvo" path="res://texture_rect.tscn" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://c52nix83yxc3k" path="res://assets/factory1.png" id="2_epypp"]
-[ext_resource type="Texture2D" uid="uid://bghuys1p43b64" path="res://assets/treetower.png" id="3_epypp"]
-[ext_resource type="Script" uid="uid://b8bohffmblaxv" path="res://scripts/label.gd" id="5_q6r6c"]
-[ext_resource type="Script" uid="uid://bixiqudeqhkg8" path="res://scripts/button.gd" id="6_d21ai"]
-[ext_resource type="Texture2D" uid="uid://b5fy48vjasyxt" path="res://assets/background.png" id="6_kdubu"]
+[ext_resource type="Texture2D" uid="uid://4u521n85e1sx" path="res://assets/WhatsApp Image 2025-11-08 at 20.30.02.jpeg" id="1_272bh"]
+[ext_resource type="PackedScene" uid="uid://b2pp2cf8cbnvo" path="res://scenes/texture_rect.tscn" id="2_5vw27"]
+[ext_resource type="Texture2D" uid="uid://bghuys1p43b64" path="res://assets/treetower.png" id="3_kek77"]
+[ext_resource type="Texture2D" uid="uid://c52nix83yxc3k" path="res://assets/factory1.png" id="4_4c57u"]
+[ext_resource type="Script" uid="uid://b8bohffmblaxv" path="res://scripts/label.gd" id="5_efxa6"]
+[ext_resource type="Script" uid="uid://bg6v1t4wgcy3i" path="res://scripts/label_2.gd" id="6_dg77c"]
+[ext_resource type="Script" uid="uid://bixiqudeqhkg8" path="res://scripts/button.gd" id="7_ycdy4"]
 
 [sub_resource type="GDScript" id="GDScript_wtcfe"]
 
@@ -15,620 +16,620 @@
 position = Vector2(0, -8)
 script = SubResource("GDScript_wtcfe")
 
-[node name="Background" type="Sprite2D" parent="."]
-position = Vector2(668, 324)
-scale = Vector2(30.75, 20.25)
-texture = ExtResource("6_kdubu")
+[node name="WhatsAppImage2025-11-08At20_30_02" type="Sprite2D" parent="."]
+position = Vector2(664, 316)
+scale = Vector2(1, 0.679687)
+texture = ExtResource("1_272bh")
 
 [node name="Node2" type="Node" parent="."]
 
-[node name="TextureRect2" parent="Node2" instance=ExtResource("1_0e48y")]
+[node name="TextureRect2" parent="Node2" instance=ExtResource("2_5vw27")]
 offset_left = 16.0
 offset_top = 368.0
 offset_right = 144.0
 offset_bottom = 496.0
-texture = ExtResource("3_epypp")
+texture = ExtResource("3_kek77")
 
-[node name="TextureRect" parent="Node2" instance=ExtResource("1_0e48y")]
+[node name="TextureRect" parent="Node2" instance=ExtResource("2_5vw27")]
 offset_left = 16.0
 offset_top = 512.0
 offset_right = 144.0
 offset_bottom = 640.0
-texture = ExtResource("2_epypp")
+texture = ExtResource("4_4c57u")
 
 [node name="Node" type="Node" parent="."]
 script = SubResource("GDScript_0hol4")
 
-[node name="TextureRect3" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect3" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 88.0
 offset_right = 320.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect4" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect4" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 176.0
 offset_right = 320.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect5" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect5" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 256.0
 offset_right = 320.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect6" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect6" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 336.0
 offset_right = 320.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect7" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect7" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 416.0
 offset_right = 320.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect8" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect8" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 496.0
 offset_right = 320.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect9" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect9" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_top = 576.0
 offset_right = 320.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect10" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect10" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 192.0
 offset_right = 320.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect11" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect11" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 88.0
 offset_right = 416.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect12" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect12" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 176.0
 offset_right = 416.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect13" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect13" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 256.0
 offset_right = 416.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect14" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect14" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 336.0
 offset_right = 416.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect15" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect15" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 416.0
 offset_right = 416.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect16" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect16" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 496.0
 offset_right = 416.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect17" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect17" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_top = 576.0
 offset_right = 416.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect18" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect18" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 288.0
 offset_right = 416.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect19" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect19" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 88.0
 offset_right = 512.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect20" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect20" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 176.0
 offset_right = 512.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect21" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect21" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 256.0
 offset_right = 512.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect22" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect22" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 336.0
 offset_right = 512.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect23" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect23" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 416.0
 offset_right = 512.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect24" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect24" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 496.0
 offset_right = 512.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect25" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect25" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_top = 576.0
 offset_right = 512.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect26" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect26" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 384.0
 offset_right = 512.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect27" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect27" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 88.0
 offset_right = 600.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect28" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect28" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 176.0
 offset_right = 600.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect29" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect29" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 256.0
 offset_right = 600.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect30" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect30" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 336.0
 offset_right = 600.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect31" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect31" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 416.0
 offset_right = 600.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect32" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect32" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 496.0
 offset_right = 600.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect33" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect33" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_top = 576.0
 offset_right = 600.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect34" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect34" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 472.0
 offset_right = 600.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect35" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect35" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 88.0
 offset_right = 688.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect36" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect36" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 176.0
 offset_right = 688.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect37" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect37" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 256.0
 offset_right = 688.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect38" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect38" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 336.0
 offset_right = 688.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect39" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect39" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 416.0
 offset_right = 688.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect40" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect40" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 496.0
 offset_right = 688.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect41" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect41" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_top = 576.0
 offset_right = 688.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect42" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect42" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 560.0
 offset_right = 688.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect43" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect43" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 88.0
 offset_right = 768.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect44" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect44" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 176.0
 offset_right = 768.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect45" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect45" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 256.0
 offset_right = 768.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect46" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect46" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 336.0
 offset_right = 768.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect47" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect47" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 416.0
 offset_right = 768.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect48" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect48" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 496.0
 offset_right = 768.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect49" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect49" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_top = 576.0
 offset_right = 768.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect50" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect50" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 640.0
 offset_right = 768.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect51" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect51" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 88.0
 offset_right = 848.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect52" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect52" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 176.0
 offset_right = 848.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect53" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect53" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 256.0
 offset_right = 848.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect54" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect54" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 336.0
 offset_right = 848.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect55" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect55" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 416.0
 offset_right = 848.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect56" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect56" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 496.0
 offset_right = 848.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect57" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect57" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_top = 576.0
 offset_right = 848.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect58" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect58" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 720.0
 offset_right = 848.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect59" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect59" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 88.0
 offset_right = 928.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect60" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect60" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 176.0
 offset_right = 928.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect61" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect61" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 256.0
 offset_right = 928.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect62" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect62" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 336.0
 offset_right = 928.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect63" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect63" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 416.0
 offset_right = 928.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect64" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect64" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 496.0
 offset_right = 928.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect65" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect65" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_top = 576.0
 offset_right = 928.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect66" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect66" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 800.0
 offset_right = 928.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect67" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect67" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 88.0
 offset_right = 1008.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect68" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect68" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 176.0
 offset_right = 1008.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect69" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect69" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 256.0
 offset_right = 1008.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect70" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect70" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 336.0
 offset_right = 1008.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect71" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect71" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 416.0
 offset_right = 1008.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect72" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect72" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 496.0
 offset_right = 1008.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect73" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect73" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_top = 576.0
 offset_right = 1008.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect74" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect74" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 880.0
 offset_right = 1008.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect75" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect75" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 88.0
 offset_right = 1096.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect76" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect76" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 176.0
 offset_right = 1096.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect77" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect77" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 256.0
 offset_right = 1096.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect78" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect78" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 336.0
 offset_right = 1096.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect79" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect79" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 416.0
 offset_right = 1096.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect80" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect80" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 496.0
 offset_right = 1096.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect81" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect81" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_top = 576.0
 offset_right = 1096.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect82" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect82" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 968.0
 offset_right = 1096.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect83" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect83" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 88.0
 offset_right = 1176.0
 offset_bottom = 216.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect84" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect84" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 176.0
 offset_right = 1176.0
 offset_bottom = 304.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect85" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect85" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 256.0
 offset_right = 1176.0
 offset_bottom = 384.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect86" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect86" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 336.0
 offset_right = 1176.0
 offset_bottom = 464.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect87" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect87" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 416.0
 offset_right = 1176.0
 offset_bottom = 544.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect88" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect88" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 496.0
 offset_right = 1176.0
 offset_bottom = 624.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect89" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect89" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_top = 576.0
 offset_right = 1176.0
 offset_bottom = 704.0
 scale = Vector2(0.48, 0.48)
 
-[node name="TextureRect90" parent="Node" instance=ExtResource("1_0e48y")]
+[node name="TextureRect90" parent="Node" instance=ExtResource("2_5vw27")]
 offset_left = 1048.0
 offset_right = 1176.0
 scale = Vector2(0.48, 0.48)
@@ -638,14 +639,14 @@ offset_left = 40.0
 offset_top = 48.0
 offset_right = 80.0
 offset_bottom = 71.0
-script = ExtResource("5_q6r6c")
+script = ExtResource("5_efxa6")
 
 [node name="Label2" type="Label" parent="."]
 offset_left = 40.0
 offset_top = 176.0
 offset_right = 80.0
 offset_bottom = 199.0
-script = ExtResource("5_q6r6c")
+script = ExtResource("6_dg77c")
 
 [node name="Button" type="Button" parent="."]
 offset_left = 24.0
@@ -653,6 +654,6 @@ offset_top = 280.0
 offset_right = 136.0
 offset_bottom = 360.0
 text = "RESET"
-script = ExtResource("6_d21ai")
+script = ExtResource("7_ycdy4")
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
