@@ -1,40 +1,34 @@
 extends Node2D
 
-var draggable = false
-var is_inside_dropable = false
-var body_ref
+var is_dragging = false
+var offset: Vector2
 
-func _on_area_2d_mouse_entered():
-	if not Global.is_dragging:
-		draggable = true
-		scale = Vector2(1.05, 1.05)
+func _ready():
+	# Make sure area can detect input
+	$Area2D.input_ray_pickable = true
 
-
-func _on_area_2d_mouse_exited():
-	if not Global.is_dragging:
-		draggable = false
-		scale = Vector2(1, 1)
-
-
-func _on_area_2d_body_entered(body):
-	if body.is_in_group("dropable"):
-		is_inside_dropable = true
-		body.modulate = Color(Color.AQUA, 1)
-		body_ref = body_ref
-
-
-func _on_area_2d_body_exited(body):
-	if body.is_in_group('dropable'):
-		is_inside_dropable = false
-		body.modulate = Color(Color.BLUE, 1)
-	
+func _input(event):
+	if event is InputEventMouseButton and event.button_index == MOUSE_BUTTON_LEFT:
+		if event.pressed:
+			# Check if click is inside our Area2D
+			var mouse_pos = get_global_mouse_position()
+			var space_state = get_world_2d().direct_space_state
+			var query = PhysicsPointQueryParameters2D.create(mouse_pos)
+			query.collision_mask = $Area2D.collision_mask
+			var result = space_state.intersect_point(query)
+			
+			for collision in result:
+				if collision.collider == $Area2D:
+					print("Clicked on: ", name)
+					offset = mouse_pos - global_position
+					is_dragging = true
+					Global.is_dragging = true
+					break
+		else:
+			if is_dragging:
+				is_dragging = false
+				Global.is_dragging = false
 
 func _process(delta):
-	if draggable == true:
-		pass
-		if Input.is_action_pressed('click'):
-			global_position = get_global_mouse_position()
-		elif Input.is_action_just_released("click"):
-			Global.is_dragging = false
-			var tween = get_tree().create_tween()
-			
+	if is_dragging:
+		global_position = get_global_mouse_position() - offset
