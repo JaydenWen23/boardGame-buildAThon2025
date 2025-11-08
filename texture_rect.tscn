@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b2pp2cf8cbnvo"]
 
-[ext_resource type="Script" uid="uid://di7aq02j8vjns" path="res://texture_rect.gd" id="1_ohhw7"]
+[ext_resource type="Script" uid="uid://di7aq02j8vjns" path="res://scripts/texture_rect.gd" id="1_ohhw7"]
 [ext_resource type="Texture2D" uid="uid://d1rqaxif7p6xq" path="res://assets/tile.png" id="1_s0p3g"]
 
 [node name="TextureRect" type="TextureRect"]

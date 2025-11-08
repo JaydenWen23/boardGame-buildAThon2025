@@ -17,8 +17,8 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-Varz="*res://varz.gd"
-GameManager="*res://GameManager.gd"
+Varz="*res://scripts/varz.gd"
+GameManager="*res://scripts/GameManager.gd"
 
 [global_group]
 

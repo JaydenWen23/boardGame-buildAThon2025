@@ -5,6 +5,7 @@ var turn = int(randf_range(1, 2))
 var tower_positions = []
 var influence_radius = 1.5  # Use 1.5 to include diagonals but not skip cells
 var grid_size = 4
+var time = 600
 
 func _init():
 	print("Starting turn: ", turn)
