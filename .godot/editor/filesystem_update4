@@ -1,2 +1,5 @@
 res://obj.tscn
 res://obj.gd
+res://platform.tscn
+res://node_2d.tscn
+res://button.gd

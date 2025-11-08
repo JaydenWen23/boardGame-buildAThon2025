@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://brf7xufep214w" path="res://platform.gd" id="1_mi635"]
 
-[node name="Platform" type="StaticBody2D" groups=["dropable"]]
+[node name="Platform" type="StaticBody2D" groups=["drop-able"]]
 script = ExtResource("1_mi635")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
