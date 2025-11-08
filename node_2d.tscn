@@ -1,97 +1,127 @@
-[gd_scene load_steps=5 format=3 uid="uid://c0xxw5r6411n1"]
+[gd_scene load_steps=7 format=3 uid="uid://c0xxw5r6411n1"]
 
-[ext_resource type="PackedScene" uid="uid://d2u2rlmakcxxt" path="res://platform.tscn" id="2_0e48y"]
-[ext_resource type="Script" uid="uid://byoc3h0644uqf" path="res://button.gd" id="2_epypp"]
-[ext_resource type="PackedScene" uid="uid://clry86ynxrmf5" path="res://obj.tscn" id="3_epypp"]
+[ext_resource type="PackedScene" uid="uid://b2pp2cf8cbnvo" path="res://texture_rect.tscn" id="1_0e48y"]
+[ext_resource type="Texture2D" uid="uid://c52nix83yxc3k" path="res://assets/factory1.png" id="2_epypp"]
+[ext_resource type="Texture2D" uid="uid://bghuys1p43b64" path="res://assets/treetower.png" id="3_epypp"]
+[ext_resource type="Script" uid="uid://b8bohffmblaxv" path="res://label.gd" id="5_q6r6c"]
 
 [sub_resource type="GDScript" id="GDScript_wtcfe"]
-script/source = "extends Node2D
 
-func _init():
-	pass
-func _process(delta):
-	pass
-"
+[sub_resource type="GDScript" id="GDScript_0hol4"]
 
 [node name="main" type="Node2D"]
 script = SubResource("GDScript_wtcfe")
 
 [node name="Node" type="Node" parent="."]
+script = SubResource("GDScript_0hol4")
 
-[node name="Platform" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(256, 96)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 8.0
+offset_top = 512.0
+offset_right = 136.0
+offset_bottom = 640.0
+texture = ExtResource("2_epypp")
 
-[node name="Platform2" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(256, 248)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect2" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 216.0
+offset_top = 512.0
+offset_right = 344.0
+offset_bottom = 640.0
 
-[node name="Platform3" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(256, 400)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect3" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 216.0
+offset_top = 336.0
+offset_right = 344.0
+offset_bottom = 464.0
 
-[node name="Platform4" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(256, 552)
-scale = Vector2(1.00494, 1)
+[node name="TextureRect4" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 216.0
+offset_top = 160.0
+offset_right = 344.0
+offset_bottom = 288.0
 
-[node name="Platform5" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(448, 96)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect5" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 216.0
+offset_right = 344.0
 
-[node name="Platform6" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(448, 248)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect6" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 432.0
+offset_top = 512.0
+offset_right = 560.0
+offset_bottom = 640.0
 
-[node name="Platform7" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(448, 400)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect7" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 432.0
+offset_top = 336.0
+offset_right = 560.0
+offset_bottom = 464.0
 
-[node name="Platform8" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(448, 552)
-scale = Vector2(1.00494, 1)
+[node name="TextureRect8" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 432.0
+offset_top = 160.0
+offset_right = 560.0
+offset_bottom = 288.0
 
-[node name="Platform9" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(640, 96)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect9" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 432.0
+offset_right = 560.0
 
-[node name="Platform10" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(640, 248)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect10" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 632.0
+offset_top = 512.0
+offset_right = 760.0
+offset_bottom = 640.0
 
-[node name="Platform11" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(640, 400)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect11" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 632.0
+offset_top = 336.0
+offset_right = 760.0
+offset_bottom = 464.0
 
-[node name="Platform12" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(640, 552)
-scale = Vector2(1.00494, 1)
+[node name="TextureRect12" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 632.0
+offset_top = 160.0
+offset_right = 760.0
+offset_bottom = 288.0
 
-[node name="Platform13" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(832, 96)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect13" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 632.0
+offset_right = 760.0
 
-[node name="Platform14" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(832, 248)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect14" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 848.0
+offset_top = 504.0
+offset_right = 976.0
+offset_bottom = 632.0
 
-[node name="Platform15" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(832, 400)
-scale = Vector2(1.00369, 1)
+[node name="TextureRect15" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 848.0
+offset_top = 328.0
+offset_right = 976.0
+offset_bottom = 456.0
 
-[node name="Platform16" parent="Node" instance=ExtResource("2_0e48y")]
-position = Vector2(832, 552)
-scale = Vector2(1.00494, 1)
+[node name="TextureRect16" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 848.0
+offset_top = 152.0
+offset_right = 976.0
+offset_bottom = 280.0
 
-[node name="Button" type="Button" parent="."]
-offset_left = 32.0
-offset_top = 216.0
+[node name="TextureRect17" parent="Node" instance=ExtResource("1_0e48y")]
+offset_left = 848.0
+offset_top = -8.0
+offset_right = 976.0
+offset_bottom = 120.0
+
+[node name="Label" type="Label" parent="."]
+offset_left = 40.0
+offset_top = 48.0
+offset_right = 80.0
+offset_bottom = 71.0
+script = ExtResource("5_q6r6c")
+
+[node name="TextureRect" parent="." instance=ExtResource("1_0e48y")]
+offset_left = 16.0
+offset_top = 368.0
 offset_right = 144.0
-offset_bottom = 320.0
-text = "Spawn
-Factory"
-script = ExtResource("2_epypp")
-
-[node name="obj" parent="." instance=ExtResource("3_epypp")]
-position = Vector2(104, 440)
-
-[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
+offset_bottom = 496.0
+texture = ExtResource("3_epypp")

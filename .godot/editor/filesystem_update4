@@ -4,3 +4,10 @@ res://platform.tscn
 res://node_2d.tscn
 res://button.gd
 res://platform.gd
+res://texture_rect.tscn
+res://texture_rect.gd
+res://varz.gd
+res://texture_rect_p.tscn
+res://texture_rect_p.gd
+res://label.gd
+res://texture_rect_d.tscn
