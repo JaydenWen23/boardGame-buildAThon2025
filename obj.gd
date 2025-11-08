@@ -5,7 +5,9 @@ var is_inside_dropable = false
 var body_ref
 
 func _on_area_2d_mouse_entered():
-	pass # Replace with function body.
+	if not Global.is_dragging:
+		draggable = true
+		scale =Vector2(1.05, 1.05)
 
 
 func _on_area_2d_mouse_exited():
