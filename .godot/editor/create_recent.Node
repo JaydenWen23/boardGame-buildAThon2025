@@ -1,5 +1,8 @@
-Label
-Node
-Panel
-TextureRect
 Button
+TextureRect
+Control
+Node
+TileMap
+Sprite2D
+Label
+Panel

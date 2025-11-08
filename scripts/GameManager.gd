@@ -1,38 +1,25 @@
-# GameManager.gd
+# GameManager.gd (attach to a root node)
 extends Node
 
 var turn = int(randf_range(1, 2))
-var tower_positions = []
-var influence_radius = 1.5  # Use 1.5 to include diagonals but not skip cells
-var grid_size = 4
-var time = 600
-
+var tower_positions = []  # Store positions of placed towers
+var influence_radius = 2  # Cells radius for sphere of influence
+var turnz = 0
+var towersF: int = 0
+var towersP: int = 0
 func _init():
 	print("Starting turn: ", turn)
 
 func can_place_tower(grid_position):
-	# Check grid bounds
-	if grid_position.x < 0 or grid_position.x >= grid_size or grid_position.y < 0 or grid_position.y >= grid_size:
-		return false
-
-	# Check if already occupied
-	if grid_position in tower_positions:
-		return false
-
-	# Prevent adjacency (including diagonals)
 	for tower_pos in tower_positions:
-		var dx = abs(tower_pos.x - grid_position.x)
-		var dy = abs(tower_pos.y - grid_position.y)
-		if dx <= 1 and dy <= 1:  # 8-direction adjacency block
+		# Calculate Manhattan distance (or Euclidean if you prefer)
+		var distance = abs(tower_pos.x - grid_position.x) + abs(tower_pos.y - grid_position.y)
+		if distance <= influence_radius:
 			return false
-
 	return true
-
 
 func add_tower(grid_position):
 	if can_place_tower(grid_position):
 		tower_positions.append(grid_position)
-		print("Tower placed at: ", grid_position)
-		print("All tower positions: ", tower_positions)
 		return true
 	return false

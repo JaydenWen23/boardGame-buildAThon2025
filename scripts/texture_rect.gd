@@ -23,23 +23,23 @@ func _can_drop_data(at_position, data):
 
 func _drop_data(at_position, data):
 	print("Dropping: ", data.resource_path)
-	
 	# Use GameManager directly (since it's an autoload)
 	if not GameManager.can_place_tower(grid_position):
 		print("Cannot place tower here - sphere of influence violation!")
 		return
 	
-	if data.resource_path == 'res://assets/factory1.png' and GameManager.turn == 1:
+	if data.resource_path == 'res://assets/factory1.png' and GameManager.turn == 1 and GameManager.turnz < 31:
 		if GameManager.add_tower(grid_position):
 			texture = data
 			GameManager.turn = 2
 			print("Factory placed! Now it's player 2's turn")
-			
-	elif data.resource_path == 'res://assets/treetower.png' and GameManager.turn == 2:
+			GameManager.turnz -= 1
+	elif data.resource_path == 'res://assets/treetower.png' and GameManager.turn == 2 and GameManager.turnz < 31:
 		if GameManager.add_tower(grid_position):
 			texture = data
 			GameManager.turn = 1
 			print("Tree tower placed! Now it's player 1's turn")
+			GameManager.turnz -= 1
 	
 	else:
 		print("Invalid move - wrong turn or tower type")
