@@ -37,3 +37,4 @@ func _process(delta):
 		elif Input.is_action_just_released("click"):
 			Global.is_dragging = false
 			var tween = get_tree().create_tween()
+			
