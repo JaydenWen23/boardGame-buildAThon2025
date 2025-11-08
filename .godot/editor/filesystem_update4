@@ -11,3 +11,4 @@ res://texture_rect_p.tscn
 res://texture_rect_p.gd
 res://label.gd
 res://texture_rect_d.tscn
+res://GameManager.gd

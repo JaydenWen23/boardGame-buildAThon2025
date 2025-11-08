@@ -2,6 +2,6 @@ extends Label
 
 func _init():
 	pass
-	text = str(Varz.turn)
+	text = str(GameManager.turn)
 func _process(delta):
-	text = str(Varz.turn)
+	text = 'TURN' + str(GameManager.turn)
