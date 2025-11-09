@@ -1,8 +1,14 @@
-[gd_scene load_steps=2 format=3 uid="uid://dgvgwdq1riwq7"]
+[gd_scene load_steps=3 format=3 uid="uid://dgvgwdq1riwq7"]
 
 [ext_resource type="Script" uid="uid://bde8m568dt5cl" path="res://scripts/button_3.gd" id="1_5scu2"]
+[ext_resource type="Texture2D" uid="uid://b5fy48vjasyxt" path="res://assets/background.png" id="1_otx7i"]
 
 [node name="LOST" type="Node2D"]
+
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(652.25, 437)
+scale = Vector2(49.4219, 38.8438)
+texture = ExtResource("1_otx7i")
 
 [node name="Label" type="Label" parent="."]
 offset_left = 464.0
