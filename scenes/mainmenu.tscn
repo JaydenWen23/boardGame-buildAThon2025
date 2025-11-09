@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=3 uid="uid://bl8wsr2ox0ryq"]
+[gd_scene load_steps=7 format=3 uid="uid://bl8wsr2ox0ryq"]
 
 [ext_resource type="Texture2D" uid="uid://b5fy48vjasyxt" path="res://assets/background.png" id="1_3vvtq"]
 [ext_resource type="Texture2D" uid="uid://ddqowv2tl61r2" path="res://assets/title.png" id="1_natt5"]
 [ext_resource type="Texture2D" uid="uid://bnor3rr8uue21" path="res://assets/play.png" id="3_s5g8n"]
 [ext_resource type="Texture2D" uid="uid://cnfe7p3s7cy4u" path="res://assets/tutor.png" id="4_7yvfd"]
+[ext_resource type="Script" uid="uid://i0ru7xmmuxnb" path="res://scripts/texture_button_2.gd" id="4_s5g8n"]
 
 [sub_resource type="StyleBoxTexture" id="StyleBoxTexture_dfy5j"]
 texture = ExtResource("1_3vvtq")
@@ -52,8 +53,11 @@ stretch_mode = 5
 layout_mode = 2
 texture_normal = ExtResource("3_s5g8n")
 stretch_mode = 3
+script = ExtResource("4_s5g8n")
 
 [node name="TextureButton" type="TextureButton" parent="VBoxContainer"]
 layout_mode = 2
 texture_normal = ExtResource("4_7yvfd")
 stretch_mode = 3
+
+[connection signal="pressed" from="VBoxContainer/TextureButton2" to="VBoxContainer/TextureButton2" method="_on_pressed"]

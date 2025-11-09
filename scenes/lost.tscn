@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://dgvgwdq1riwq7"]
 
-[ext_resource type="Script" uid="uid://bde8m568dt5cl" path="res://scenes/button_3.gd" id="1_5scu2"]
+[ext_resource type="Script" uid="uid://bde8m568dt5cl" path="res://scripts/button_3.gd" id="1_5scu2"]
 
 [node name="LOST" type="Node2D"]
 

@@ -1,1 +1,13 @@
 res://scenes/mainmenu.tscn
+res://scenes/texture_button_2.gd
+res://scenes/main.tscn
+res://scenes/WIN.tscn
+res://scenes/lost.tscn
+res://scripts/texture_button_2.gd
+res://scripts/button_3.gd
+res://scripts/button_2.gd
+res://tutorial.tscn
+res://scripts/texture_rect.gd
+res://button8.gd
+res://scenes/texture_rect.tscn
+res://scenes/button_67.gd

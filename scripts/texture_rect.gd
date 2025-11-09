@@ -43,7 +43,7 @@ func _drop_data(at_position, data):
 		if GameManager.add_tower(grid_position, 1, tower_type):
 			texture = data
 			GameManager.turn = 2
-			if GameManager.gulden >= 10:
+			if GameManager.gulden >= 50:
 				GameManager.gulden = 0
 				GameManager.baume = 0
 				get_tree().change_scene_to_file("res://scenes/WIN.tscn")
@@ -53,7 +53,7 @@ func _drop_data(at_position, data):
 		if GameManager.add_tower(grid_position, 2, tower_type):
 			texture = data
 			GameManager.turn = 1
-			if GameManager.baume >= 10:
+			if GameManager.baume >= 50:
 				GameManager.gulden = 0
 				GameManager.baume = 0
 				get_tree().change_scene_to_file("res://scenes/lost.tscn")

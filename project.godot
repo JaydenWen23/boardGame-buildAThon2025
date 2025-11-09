@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Build a thon Preps"
-run/main_scene="uid://c0xxw5r6411n1"
-config/features=PackedStringArray("4.5", "Forward Plus")
+run/main_scene="uid://bl8wsr2ox0ryq"
+config/features=PackedStringArray("4.4", "Forward Plus")
 config/icon="res://assets/icon.svg"
 
 [autoload]
