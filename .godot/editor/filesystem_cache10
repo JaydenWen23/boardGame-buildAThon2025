@@ -1,5 +1,6 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1762679185
+::res://::1762679925
+tutorial.tscn::PackedScene::2849858060104204284::1762679925::0::1::::<><><>0<>0<><>::uid://cj7rohipe74cj::::res://scripts/button8.gd
 ::res://assets/::1762678564
 background.png::CompressedTexture2D/CompressedTexture2D::4503918643575110897::1762602699::1762678543::1::::<><><>0<>0<>8b5ac081a012eba0833095ba3ba4a7f8<>res://.godot/imported/background.png-1fdba8b6a966ce2c2ffc607f7c096e95.ctex::
 bestbutton.png::CompressedTexture2D/CompressedTexture2D::2843799892559931561::1762677434::1762678543::1::::<><><>0<>0<>6f95952e8819c646406808a175df8a56<>res://.godot/imported/bestbutton.png-c457a549569d92540e5f3bec69ddb4d4.ctex::
@@ -16,21 +17,23 @@ treetower.png::CompressedTexture2D/CompressedTexture2D::2823262575015365839::176
 tutor.png::CompressedTexture2D/CompressedTexture2D::5695919068792428062::1762678532::1762678543::1::::<><><>0<>0<>06810991b77ea7953965669c69675109<>res://.godot/imported/tutor.png-c2ba19a56bfd23ff3101784febffb0f1.ctex::
 WhatsApp Image 2025-11-08 at 20.30.02.jpeg::CompressedTexture2D/CompressedTexture2D::2078635134031768899::1762608619::1762678543::1::::<><><>0<>0<>9936052dadbb02cfda0f182072646e0e<>res://.godot/imported/WhatsApp Image 2025-11-08 at 20.30.02.jpeg-7b677b2fff2d4b43c03e05d971896c63.ctex::
 WhatsApp Image 2025-11-08 at 20.41.14.jpeg::CompressedTexture2D/CompressedTexture2D::3078995089490491087::1762609636::1762678543::1::::<><><>0<>0<>678b62828481ff5f193aa8bf78ac113f<>res://.godot/imported/WhatsApp Image 2025-11-08 at 20.41.14.jpeg-0f18bbff9055ea7c0e4ab7f3999bed2e.ctex::
-::res://scenes/::1762679185
-lost.tscn::PackedScene::7624150818656559528::1762679185::0::1::::<><><>0<>0<><>::uid://bde8m568dt5cl::::res://scripts/button_3.gd
-main.tscn::PackedScene::6576480528390406652::1762679185::0::1::::<><><>0<>0<><>::uid://b2pp2cf8cbnvo::::res://scenes/texture_rect.tscn<>uid://bghuys1p43b64::::res://assets/treetower.png<>uid://c52nix83yxc3k::::res://assets/factory1.png<>uid://b8bohffmblaxv::::res://scripts/label.gd<>uid://bg6v1t4wgcy3i::::res://scripts/label_2.gd<>uid://bgl1k0d6iqmb4::::res://scripts/label_3.gd<>uid://bj4qum08s7jmt::::res://assets/WhatsApp Image 2025-11-08 at 20.41.14.jpeg<>uid://bixiqudeqhkg8::::res://scripts/button.gd
-mainmenu.tscn::PackedScene/PackedScene::3227991283001086652::1762678979::0::1::::<><><>0<>0<><>::uid://b5fy48vjasyxt::::res://assets/background.png<>uid://ddqowv2tl61r2::::res://assets/title.png<>uid://bnor3rr8uue21::::res://assets/play.png<>uid://cnfe7p3s7cy4u::::res://assets/tutor.png
-texture_button_2.gd::GDScript/GDScript::614189814550661687::1762679143::0::1::::<>TextureButton<><>0<>0<><>::
-texture_rect.tscn::PackedScene/PackedScene::4313444213830620308::1762678367::0::1::::<><><>0<>0<><>::uid://di7aq02j8vjns::::res://scripts/texture_rect.gd<>uid://d1rqaxif7p6xq::::res://assets/tile.png
-WIN.tscn::PackedScene::1108331470097411528::1762679185::0::1::::<><><>0<>0<><>::uid://bj1snf74ltys7::::res://scripts/button_2.gd
-::res://scripts/::1762679185
+::res://scenes/::1762679878
+button_67.gd::GDScript::4206999035098122960::1762679874::0::1::::<>Button<><>0<>0<><>::
+lost.tscn::PackedScene::7624150818656559528::1762679798::0::1::::<><><>0<>0<><>::uid://bde8m568dt5cl::::res://scripts/button_3.gd
+main.tscn::PackedScene::6576480528390406652::1762679874::0::1::::<><><>0<>0<><>::uid://b2pp2cf8cbnvo::::res://scenes/texture_rect.tscn<>uid://bghuys1p43b64::::res://assets/treetower.png<>uid://c52nix83yxc3k::::res://assets/factory1.png<>uid://b8bohffmblaxv::::res://scripts/label.gd<>uid://bg6v1t4wgcy3i::::res://scripts/label_2.gd<>uid://bgl1k0d6iqmb4::::res://scripts/label_3.gd<>uid://bj4qum08s7jmt::::res://assets/WhatsApp Image 2025-11-08 at 20.41.14.jpeg<>uid://bixiqudeqhkg8::::res://scripts/button.gd<>uid://b065wollholbc::::res://scenes/button_67.gd
+mainmenu.tscn::PackedScene::3227991283001086652::1762679798::0::1::::<><><>0<>0<><>::uid://b5fy48vjasyxt::::res://assets/background.png<>uid://ddqowv2tl61r2::::res://assets/title.png<>uid://bnor3rr8uue21::::res://assets/play.png<>uid://cnfe7p3s7cy4u::::res://assets/tutor.png<>uid://i0ru7xmmuxnb::::res://scripts/texture_button_2.gd
+texture_rect.tscn::PackedScene::4313444213830620308::1762679798::0::1::::<><><>0<>0<><>::uid://di7aq02j8vjns::::res://scripts/texture_rect.gd<>uid://d1rqaxif7p6xq::::res://assets/tile.png
+WIN.tscn::PackedScene::1108331470097411528::1762679798::0::1::::<><><>0<>0<><>::uid://bj1snf74ltys7::::res://scripts/button_2.gd
+::res://scripts/::1762679925
+button8.gd::GDScript::5471658618960159201::1762679795::0::1::::<>Button<><>0<>0<><>::
 button.gd::GDScript/GDScript::2995927485090171149::1762653205::0::1::::<>Button<><>0<>0<><>::
-button_2.gd::GDScript::3072910532615100876::1762678531::0::1::::<>Button<><>0<>0<><>::
-button_3.gd::GDScript::2607271441005190127::1762678531::0::1::::<>Button<><>0<>0<><>::
-button_4.gd::GDScript::4368116185525211419::1762678531::0::1::::<>Button<><>0<>0<><>::
+button_2.gd::GDScript::3072910532615100876::1762679415::0::1::::<>Button<><>0<>0<><>::
+button_3.gd::GDScript::2607271441005190127::1762679421::0::1::::<>Button<><>0<>0<><>::
+button_4.gd::GDScript/GDScript::4368116185525211419::1762678531::0::1::::<>Button<><>0<>0<><>::
 GameManager.gd::GDScript/GDScript::7856276024732505102::1762661656::0::1::::<>Node<><>0<>0<><>::
 label.gd::GDScript/GDScript::4705579710846061643::1762602180::0::1::::<>Label<><>0<>0<><>::
 label_2.gd::GDScript/GDScript::2872871987137456912::1762653332::0::1::::<>Label<><>0<>0<><>::
-label_3.gd::GDScript::2831859719704928399::1762678531::0::1::::<>Label<><>0<>0<><>::
-texture_rect.gd::GDScript/GDScript::7786862816263280392::1762661561::0::1::::<>TextureRect<><>0<>0<><>::
+label_3.gd::GDScript/GDScript::2831859719704928399::1762678531::0::1::::<>Label<><>0<>0<><>::
+texture_button_2.gd::GDScript::614189814550661687::1762679459::0::1::::<>TextureButton<><>0<>0<><>::
+texture_rect.gd::GDScript::7786862816263280392::1762679628::0::1::::<>TextureRect<><>0<>0<><>::
 varz.gd::GDScript/GDScript::6514245822398561953::1762595521::0::1::::<>Node<><>0<>0<><>::

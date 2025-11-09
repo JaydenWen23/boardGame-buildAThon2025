@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://bguq0mic5f3u3"]
+[gd_scene load_steps=3 format=3 uid="uid://bguq0mic5f3u3"]
 
-[ext_resource type="Script" uid="uid://cj7rohipe74cj" path="res://button8.gd" id="1_7n6eb"]
+[ext_resource type="Texture2D" uid="uid://b5fy48vjasyxt" path="res://assets/background.png" id="1_8ho6b"]
+[ext_resource type="Script" uid="uid://cj7rohipe74cj" path="res://scripts/button8.gd" id="2_ph3nu"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -10,12 +11,17 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 
+[node name="Background" type="Sprite2D" parent="."]
+position = Vector2(647, 352)
+scale = Vector2(41.25, 22.75)
+texture = ExtResource("1_8ho6b")
+
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
-offset_left = 65.0
-offset_top = 266.0
-offset_right = 1229.0
-offset_bottom = 913.0
+offset_left = 98.0
+offset_top = 192.0
+offset_right = 1262.0
+offset_bottom = 839.0
 text = "the objectives of this game are about stratrgic placement and eco awareness. chaining factories and trees are allowed.
 whoever reaches the most  material wins."
 
@@ -29,6 +35,6 @@ offset_top = 380.0
 offset_right = 547.488
 offset_bottom = 293.712
 text = "RETURN"
-script = ExtResource("1_7n6eb")
+script = ExtResource("2_ph3nu")
 
 [connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
