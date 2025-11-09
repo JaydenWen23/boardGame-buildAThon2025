@@ -1,4 +1,7 @@
-[gd_scene format=3 uid="uid://bl8wsr2ox0ryq"]
+[gd_scene load_steps=3 format=3 uid="uid://bl8wsr2ox0ryq"]
+
+[ext_resource type="Texture2D" uid="uid://ddqowv2tl61r2" path="res://assets/title.png" id="1_natt5"]
+[ext_resource type="Texture2D" uid="uid://bgrs764ujye5n" path="res://assets/bestbutton.png" id="2_r3g3c"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -7,3 +10,18 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="VBoxContainer"]
+layout_mode = 2
+texture = ExtResource("1_natt5")
+expand_mode = 3
+stretch_mode = 5
+
+[node name="TextureButton" type="TextureButton" parent="VBoxContainer"]
+layout_mode = 2
+texture_normal = ExtResource("2_r3g3c")
