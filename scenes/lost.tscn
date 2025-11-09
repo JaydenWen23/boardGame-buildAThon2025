@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgvgwdq1riwq7"]
+
+[ext_resource type="Script" uid="uid://bde8m568dt5cl" path="res://scenes/button_3.gd" id="1_5scu2"]
+
+[node name="LOST" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 464.0
+offset_top = 320.0
+offset_right = 806.0
+offset_bottom = 343.0
+text = "THE FACTORY HAS TAKEN OVER THE PLACE!!!"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 600.0
+offset_top = 448.0
+offset_right = 675.0
+offset_bottom = 479.0
+text = "RESTART
+"
+script = ExtResource("1_5scu2")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]

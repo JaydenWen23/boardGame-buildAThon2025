@@ -1,7 +1,12 @@
-res://node_2d.tscn
+res://scenes/main.tscn
+res://scenes/texture_rect.tscn
 res://scripts/GameManager.gd
-res://scripts/label_2.gd
-res://texture_rect.tscn
-res://scripts/button.gd
 res://scripts/texture_rect.gd
-res://main.tscn
+res://scripts/label_2.gd
+res://scenes/label_3.gd
+res://scripts/button.gd
+res://WIN.tscn
+res://scenes/WIN.tscn
+res://scenes/lost.tscn
+res://scenes/button_2.gd
+res://scenes/button_3.gd

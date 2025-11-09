@@ -1,8 +1,8 @@
 Button
+Label
+Node
 TextureRect
 Control
-Node
 TileMap
 Sprite2D
-Label
 Panel

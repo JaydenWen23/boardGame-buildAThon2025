@@ -1,5 +1,6 @@
 extends Label
+ 
 
 func _process(delta):
-	text = 'eco points: ' + str(GameManager.baume)
+	text = 'gold: ' + str(GameManager.gulden)
 # äume und Fabrik

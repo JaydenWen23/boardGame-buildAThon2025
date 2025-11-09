@@ -23,23 +23,43 @@ func _can_drop_data(at_position, data):
 
 func _drop_data(at_position, data):
 	print("Dropping: ", data.resource_path)
-	# Use GameManager directly (since it's an autoload)
-	if not GameManager.can_place_tower(grid_position):
+
+	var tower_type = ""
+	if data.resource_path == "res://assets/factory1.png":
+		tower_type = "factory"
+	elif data.resource_path == "res://assets/treetower.png":
+		tower_type = "tree"
+
+	if tower_type == "":
+		print("Unknown tower type")
+		return
+
+	# FIXED: add owner parameter
+	if not GameManager.can_place_tower(grid_position, GameManager.turn):
 		print("Cannot place tower here - sphere of influence violation!")
 		return
-	
-	if data.resource_path == 'res://assets/factory1.png' and GameManager.turn == 1 and GameManager.turnz < 31:
-		if GameManager.add_tower(grid_position):
+
+	if GameManager.turn == 1 and tower_type == "factory" and GameManager.baume <= 10:
+		if GameManager.add_tower(grid_position, 1, tower_type):
 			texture = data
 			GameManager.turn = 2
+			if GameManager.gulden >= 10:
+				GameManager.gulden = 0
+				GameManager.baume = 0
+				get_tree().change_scene_to_file("res://scenes/WIN.tscn")
 			print("Factory placed! Now it's player 2's turn")
-			GameManager.turnz -= 1
-	elif data.resource_path == 'res://assets/treetower.png' and GameManager.turn == 2 and GameManager.turnz < 31:
-		if GameManager.add_tower(grid_position):
+
+	elif GameManager.turn == 2 and tower_type == "tree" and GameManager.gulden <= 10:
+		if GameManager.add_tower(grid_position, 2, tower_type):
 			texture = data
 			GameManager.turn = 1
+			if GameManager.baume >= 10:
+				GameManager.gulden = 0
+				GameManager.baume = 0
+				get_tree().change_scene_to_file("res://scenes/lost.tscn")
 			print("Tree tower placed! Now it's player 1's turn")
-			GameManager.turnz -= 1
-	
 	else:
 		print("Invalid move - wrong turn or tower type")
+
+
+	

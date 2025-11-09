@@ -1,0 +1,22 @@
+[gd_scene load_steps=2 format=3 uid="uid://p15b7lnkkck3"]
+
+[ext_resource type="Script" uid="uid://bj1snf74ltys7" path="res://scenes/button_2.gd" id="1_m4q5t"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 392.0
+offset_top = 320.0
+offset_right = 760.0
+offset_bottom = 343.0
+text = "THE ENVIROMENT HAS REACHED EQUILLIBRIUM"
+
+[node name="Button" type="Button" parent="."]
+offset_left = 536.0
+offset_top = 448.0
+offset_right = 611.0
+offset_bottom = 479.0
+text = "RESTART"
+script = ExtResource("1_m4q5t")
+
+[connection signal="pressed" from="Button" to="Button" method="_on_pressed"]
