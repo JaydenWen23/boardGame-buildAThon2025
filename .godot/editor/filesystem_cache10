@@ -1,26 +1,35 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1762657108
-::res://assets/::1762609781
-background.png::CompressedTexture2D/CompressedTexture2D::4503918643575110897::1762602699::1762604220::1::::<><><>0<>0<>8b5ac081a012eba0833095ba3ba4a7f8<>res://.godot/imported/background.png-1fdba8b6a966ce2c2ffc607f7c096e95.ctex::
-factory1.png::CompressedTexture2D/CompressedTexture2D::6935049743464761026::1762594501::1762594646::1::::<><><>0<>0<>63bba9886cf8b5c1fe0d02880a9a679f<>res://.godot/imported/factory1.png-fce881e318f2c2da9ce3fe674464ae47.ctex::
-icon.svg::CompressedTexture2D/CompressedTexture2D::1028939812596696325::1762523371::1762609609::1::::<><><>0<>0<>c5885a113f3e7ba593d4e7b831e025c4<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
-tile.png::CompressedTexture2D/CompressedTexture2D::9020239100037479474::1762594502::1762594646::1::::<><><>0<>0<>f3362dd374f85017a01ba240c22c6d0b<>res://.godot/imported/tile.png-455dd1073ac41712b0ee435e5393be66.ctex::
-treetower.png::CompressedTexture2D/CompressedTexture2D::2823262575015365839::1762594503::1762594646::1::::<><><>0<>0<>7ab1f863268c5b08d56269f421b926e2<>res://.godot/imported/treetower.png-b88707a706f665e4f6119010d04a306f.ctex::
-WhatsApp Image 2025-11-08 at 20.30.02.jpeg::CompressedTexture2D/CompressedTexture2D::2078635134031768899::1762608619::1762608692::1::::<><><>0<>0<>9936052dadbb02cfda0f182072646e0e<>res://.godot/imported/WhatsApp Image 2025-11-08 at 20.30.02.jpeg-7b677b2fff2d4b43c03e05d971896c63.ctex::
-WhatsApp Image 2025-11-08 at 20.41.14.jpeg::CompressedTexture2D/CompressedTexture2D::3078995089490491087::1762609636::1762609771::1::::<><><>0<>0<>678b62828481ff5f193aa8bf78ac113f<>res://.godot/imported/WhatsApp Image 2025-11-08 at 20.41.14.jpeg-0f18bbff9055ea7c0e4ab7f3999bed2e.ctex::
-::res://scenes/::1762657108
-button.gd::GDScript::4368116185525211419::1762656911::0::1::::<>Button<><>0<>0<><>::
-button_2.gd::GDScript::3072910532615100876::1762657005::0::1::::<>Button<><>0<>0<><>::
-label_3.gd::GDScript/GDScript::2831859719704928399::1762653333::0::1::::<>Label<><>0<>0<><>::
-lost.tscn::PackedScene::7624150818656559528::1762657102::0::1::::<><><>0<>0<><>::uid://bde8m568dt5cl::::res://scenes/button_3.gd
-main.tscn::PackedScene::6576480528390406652::1762657102::0::1::::<><><>0<>0<><>::uid://b2pp2cf8cbnvo::::res://scenes/texture_rect.tscn<>uid://bghuys1p43b64::::res://assets/treetower.png<>uid://c52nix83yxc3k::::res://assets/factory1.png<>uid://b8bohffmblaxv::::res://scripts/label.gd<>uid://bg6v1t4wgcy3i::::res://scripts/label_2.gd<>uid://bgl1k0d6iqmb4::::res://scenes/label_3.gd<>uid://bj4qum08s7jmt::::res://assets/WhatsApp Image 2025-11-08 at 20.41.14.jpeg<>uid://bixiqudeqhkg8::::res://scripts/button.gd
-button_3.gd::GDScript::2607271441005190127::1762657101::0::1::::<>Button<><>0<>0<><>::
-texture_rect.tscn::PackedScene::4313444213830620308::1762657157::0::1::::<><><>0<>0<><>::uid://di7aq02j8vjns::::res://scripts/main_logic.gd<>uid://d1rqaxif7p6xq::::res://assets/tile.png
-WIN.tscn::PackedScene::1108331470097411528::1762657102::0::1::::<><><>0<>0<><>::uid://bj1snf74ltys7::::res://scenes/button_2.gd
-::res://scripts/::1762656975
-button.gd::GDScript/GDScript::2995927485090171149::1762653205::0::1::::<>Button<><>0<>0<><>::
-GameManager.gd::GDScript::7856276024732505102::1762656576::0::1::::<>Node<><>0<>0<><>::
-label.gd::GDScript/GDScript::4705579710846061643::1762602180::0::1::::<>Label<><>0<>0<><>::
-label_2.gd::GDScript/GDScript::2872871987137456912::1762653332::0::1::::<>Label<><>0<>0<><>::
-main_logic.gd::GDScript::7786862816263280392::1762656790::0::1::::<>TextureRect<><>0<>0<><>::
-varz.gd::GDScript/GDScript::6514245822398561953::1762595521::0::1::::<>Node<><>0<>0<><>::
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1762672690
+::res://assets/::1762677323
+background.png::CompressedTexture2D/CompressedTexture2D::4503918643575110897::1762598762::1762667299::1::::<><><>0<>0<>57acc75d256e7e0d98323a30e281da87<>res://.godot/imported/background.png-1fdba8b6a966ce2c2ffc607f7c096e95.ctex::
+bestbutton.png::CompressedTexture2D::2843799892559931561::1762669262::1762669271::1::::<><><>0<>0<>98bda57f6f29b2ccf03fd34c9baba48f<>res://.godot/imported/bestbutton.png-c457a549569d92540e5f3bec69ddb4d4.ctex::
+button.png::CompressedTexture2D::1229317861381593864::1762662858::1762667299::1::::<><><>0<>0<>ce0b41e7829d475c8b45a350d1a3567b<>res://.godot/imported/button.png-c79155b6e84601a7c5a042250ad77b07.ctex::
+coinicon.png::CompressedTexture2D::452390850992948640::1762670149::1762672692::1::::<><><>0<>0<>6efc2d7b0de220d9ffcd74cc35854256<>res://.godot/imported/coinicon.png-513cd8d868f62ab89b67ba9a20068e34.ctex::
+factory1.png::CompressedTexture2D/CompressedTexture2D::6935049743464761026::1762591333::1762667299::1::::<><><>0<>0<>e0678f248fc9fce1f4f01de128672d7f<>res://.godot/imported/factory1.png-fce881e318f2c2da9ce3fe674464ae47.ctex::
+icon.svg::CompressedTexture2D/CompressedTexture2D::1028939812596696325::1762666184::1762667299::1::::<><><>0<>0<>947ef1b3e957456067e81c6593f7d137<>res://.godot/imported/icon.svg-56083ea2a1f1a4f1e49773bdc6d7826c.ctex::
+leaficon.png::CompressedTexture2D::3002806783729881060::1762665498::1762672692::1::::<><><>0<>0<>5f2c7c6b5e44159a5418c6868b8e2ada<>res://.godot/imported/leaficon.png-e0c7c826aa278733ee0b90b7efdc3de4.ctex::
+play.png::CompressedTexture2D::3328860051336240768::1762676375::1762676672::1::::<><><>0<>0<>0285564ba478b9a7e44be9fde4bdff53<>res://.godot/imported/play.png-659bd52d7667961eaefb6f06b279c2de.ctex::
+tile.png::CompressedTexture2D/CompressedTexture2D::9020239100037479474::1762593728::1762667299::1::::<><><>0<>0<>d13d3653b6318f18ed39512bc6ea9927<>res://.godot/imported/tile.png-455dd1073ac41712b0ee435e5393be66.ctex::
+title2.png::CompressedTexture2D::3598380976575003603::1762609443::1762667299::1::::<><><>0<>0<>524aa0c6433548c181dfed2aa1ab4ff2<>res://.godot/imported/title2.png-b8a7e1c59c07755357ac9d57a44ae4a8.ctex::
+title.png::CompressedTexture2D::7403749097002289037::1762608996::1762667299::1::::<><><>0<>0<>fd3c524ebfc7d8f181f7903912836152<>res://.godot/imported/title.png-f520a0d529e74edf0d3ba77895c4527c.ctex::
+treetower.png::CompressedTexture2D/CompressedTexture2D::2823262575015365839::1762593282::1762667299::1::::<><><>0<>0<>4d9e5e7717485a2afcb7a780c3c4ec69<>res://.godot/imported/treetower.png-b88707a706f665e4f6119010d04a306f.ctex::
+tutor.png::CompressedTexture2D::5695919068792428062::1762677301::1762677370::1::::<><><>0<>0<>d2c9becde728b07cd98febe137f6539a<>res://.godot/imported/tutor.png-c2ba19a56bfd23ff3101784febffb0f1.ctex::
+WhatsApp Image 2025-11-08 at 20.30.02.jpeg::CompressedTexture2D/CompressedTexture2D::2078635134031768899::1762666184::1762667299::1::::<><><>0<>0<>b8ceac0312aeb2e444cdd236f8eff96e<>res://.godot/imported/WhatsApp Image 2025-11-08 at 20.30.02.jpeg-7b677b2fff2d4b43c03e05d971896c63.ctex::
+WhatsApp Image 2025-11-08 at 20.41.14.jpeg::CompressedTexture2D/CompressedTexture2D::3078995089490491087::1762666184::1762667299::1::::<><><>0<>0<>ee3a6617e1f7f761f6b60b35cc93baa3<>res://.godot/imported/WhatsApp Image 2025-11-08 at 20.41.14.jpeg-0f18bbff9055ea7c0e4ab7f3999bed2e.ctex::
+::res://scenes/::1762673026
+button.gd::GDScript::4368116185525211419::1762666184::0::1::::<>Button<><>0<>0<><>::
+button_2.gd::GDScript::3072910532615100876::1762666184::0::1::::<>Button<><>0<>0<><>::
+button_3.gd::GDScript::2607271441005190127::1762666184::0::1::::<>Button<><>0<>0<><>::
+label_3.gd::GDScript::2831859719704928399::1762666184::0::1::::<>Label<><>0<>0<><>::
+lost.tscn::PackedScene::7624150818656559528::1762666184::0::1::::<><><>0<>0<><>::uid://bde8m568dt5cl::::res://scenes/button_3.gd
+main.tscn::PackedScene::6576480528390406652::1762666184::0::1::::<><><>0<>0<><>::uid://b2pp2cf8cbnvo::::res://scenes/texture_rect.tscn<>uid://bghuys1p43b64::::res://assets/treetower.png<>uid://c52nix83yxc3k::::res://assets/factory1.png<>uid://b8bohffmblaxv::::res://scripts/label.gd<>uid://bg6v1t4wgcy3i::::res://scripts/label_2.gd<>uid://bgl1k0d6iqmb4::::res://scenes/label_3.gd<>uid://bj4qum08s7jmt::::res://assets/WhatsApp Image 2025-11-08 at 20.41.14.jpeg<>uid://bixiqudeqhkg8::::res://scripts/button.gd
+mainmenu.tscn::PackedScene::3227991283001086652::1762673026::0::1::::<><><>0<>0<><>::uid://ddqowv2tl61r2::::res://assets/title.png<>uid://bgrs764ujye5n::::res://assets/bestbutton.png
+texture_rect.tscn::PackedScene::4313444213830620308::1762666184::0::1::::<><><>0<>0<><>::uid://di7aq02j8vjns::::res://scripts/texture_rect.gd<>uid://d1rqaxif7p6xq::::res://assets/tile.png
+WIN.tscn::PackedScene::1108331470097411528::1762666184::0::1::::<><><>0<>0<><>::uid://bj1snf74ltys7::::res://scenes/button_2.gd
+::res://scripts/::1762666184
+button.gd::GDScript::2995927485090171149::1762666184::0::1::::<>Button<><>0<>0<><>::
+GameManager.gd::GDScript::7856276024732505102::1762666184::0::1::::<>Node<><>0<>0<><>::
+label.gd::GDScript::4705579710846061643::1762666184::0::1::::<>Label<><>0<>0<><>::
+label_2.gd::GDScript::2872871987137456912::1762666184::0::1::::<>Label<><>0<>0<><>::
+texture_rect.gd::GDScript::7786862816263280392::1762666184::0::1::::<>TextureRect<><>0<>0<><>::
+varz.gd::GDScript::6514245822398561953::1762666184::0::1::::<>Node<><>0<>0<><>::
