@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bghuys1p43b64"
-path="res://.godot/imported/treetower.png-b88707a706f665e4f6119010d04a306f.ctex"
+uid="uid://brjc2rfes2pc2"
+path="res://.godot/imported/title2.png-b8a7e1c59c07755357ac9d57a44ae4a8.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/treetower.png"
-dest_files=["res://.godot/imported/treetower.png-b88707a706f665e4f6119010d04a306f.ctex"]
+source_file="res://assets/title2.png"
+dest_files=["res://.godot/imported/title2.png-b8a7e1c59c07755357ac9d57a44ae4a8.ctex"]
 
 [params]
 
